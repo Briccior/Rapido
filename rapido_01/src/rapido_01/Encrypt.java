@@ -11,7 +11,7 @@ public class Encrypt {
 		System.out.println("Please ener your name: ");
 		String name = in.next();
 		
-		System.out.println("Hello," + name);
+		System.out.println("Hello, " + name + "!");
 
 	}
 
