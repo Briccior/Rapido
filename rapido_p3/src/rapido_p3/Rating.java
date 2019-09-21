@@ -1,5 +1,5 @@
 package rapido_p3;
-
+//test
 import java.util.Scanner;
 
 public class Rating {
