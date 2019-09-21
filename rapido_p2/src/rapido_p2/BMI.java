@@ -39,8 +39,6 @@ public class BMI {
 			else if (BMI > 18.4 && BMI < 25) System.out.println("You are Normal Weight");
 			else if (BMI > 24 && BMI < 30) System.out.println("You are Overweight");
 			else System.out.println("You are \"Obese\"");
-			
-			// (703 * weight)/height in inches squared
 		}
 		
 		else if (userChoice == 'm' || userChoice == 'M') {
@@ -61,14 +59,10 @@ public class BMI {
 			else if (BMI > 18.4 && BMI < 25) System.out.println("You are Normal Weight");
 			else if (BMI > 24 && BMI < 30) System.out.println("You are Overweight");
 			else System.out.println("You are \"Obese\"");
-			
-			
-			//kg/height in meteres squared.
 		}
-		
-		else {
+		else 
+		{
 			System.out.println("Sorry invalid option try again");
-			
 		}
 		
 		System.out.println("________________________");
@@ -78,7 +72,5 @@ public class BMI {
 				"Obesity = BMI of 30 or greater");
 		System.out.println("________________________");
 		System.out.println("Have a nice day");
-
 	}
-
 }

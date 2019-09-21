@@ -25,13 +25,10 @@ public class Encrypt {
 		hundreds = ((tmpVal % 10) +7) % 10;
 		tmpVal = tmpVal / 10;
 		thousands = ((tmpVal % 10) + 7) % 10;
-		
-		//System.out.println(thousands + " " + hundreds + " " + tens + " " + ones);
-		
+				
 		x = (tens * 1000) + (ones * 100) + (thousands * 10) + (hundreds);
 		
-		System.out.println("The Encrypted number is:" + x);
-		
+		System.out.println("The Encrypted number is:" + x);	
 	}
 
 }
