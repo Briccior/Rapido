@@ -26,7 +26,7 @@ public class Decrypt {
 		tmpVal = tmpVal / 10;
 		thousands = ((tmpVal % 10) + 3) % 10;
 		
-		System.out.println(thousands + " " + hundreds + " " + tens + " " + ones);
+		//System.out.println(thousands + " " + hundreds + " " + tens + " " + ones);
 		
 		x = (tens * 1000) + (ones * 100) + (thousands * 10) + (hundreds);
 		
