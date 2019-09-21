@@ -35,6 +35,11 @@ public class BMI {
 			
 			System.out.printf("Your BMI is : %.1f\n", BMI);
 			
+			if (BMI < 18.5) System.out.println("You are Underweight");
+			else if (BMI > 18.4 && BMI < 25) System.out.println("You are Normal Weight");
+			else if (BMI > 24 && BMI < 30) System.out.println("You are Overweight");
+			else System.out.println("You are \"Obese\"");
+			
 			// (703 * weight)/height in inches squared
 		}
 		
@@ -51,6 +56,11 @@ public class BMI {
 			BMI = userKg / Math.pow((userMeter / 100), 2);
 			
 			System.out.printf("Your BMI is : %.1f\n", BMI);
+			
+			if (BMI < 18.5) System.out.println("You are Underweight");
+			else if (BMI > 18.4 && BMI < 25) System.out.println("You are Normal Weight");
+			else if (BMI > 24 && BMI < 30) System.out.println("You are Overweight");
+			else System.out.println("You are \"Obese\"");
 			
 			
 			//kg/height in meteres squared.
